@@ -34,9 +34,11 @@ listener "tcp" {
 ---
 
 access the ui from that ip and port given in http address
+
 public-ip-of-the-server:8234
 
 there are 2 methods to generate keys either on the ui (simple mode) or on the cli
+
 command for the cli
 
 ```bash
