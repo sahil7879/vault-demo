@@ -1,5 +1,7 @@
 vault need multiple keys to unseal it 
+
 multiple cloud provider has there own secret manager azure vault, aws secret manager etc.
+
 vault have plugins and work in multiple clouds and even in the on-prem datacenters
 
 ---
@@ -50,4 +52,6 @@ vault operator init -key-shares=3 -key-threshold=2
 ```
 one token is also generated with the keys that is required as password to access vault
 
+we have multiple authentication method to access in the vault by hich u can login
+one is the basic one using the root token we have generated
 
