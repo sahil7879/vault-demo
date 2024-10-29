@@ -39,6 +39,11 @@ access the ui from that ip and port given in http address
 
 public-ip-of-the-server:8234
 
+to run vault cli use this command
+```bash
+export VAULT_ADDR="http://127.0.0.1:8234"
+```
+
 there are 2 methods to generate keys either on the ui (simple mode) or on the cli
 
 command for the cli
