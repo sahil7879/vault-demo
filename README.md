@@ -161,7 +161,7 @@ vault kv destroy -versions=2 sahil2/webui
 
 
 vault kv metadata get sahil2/webui
-vault kv metadata put -mount=sahil2/webui -max-versions 3 -delete-version-after="1h1m1s" kv
+vault kv metadata put -mount=sahil2/webui -max-versions 3 -delete-version-after="1h1m1s" sahil2
 
 vault kv metadata delete sahil2/webui
 
